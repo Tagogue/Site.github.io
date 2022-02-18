@@ -319,7 +319,7 @@ document.addEventListener("scroll", () => {
 });
 
 document.addEventListener("scroll", () => {
-    if (window.scrollY >= 1956) {
+    if (window.scrollY >= 1672) {
         link15.style.background = "white";
         link15.style.color = "black";
         link13.style.background = "initial";

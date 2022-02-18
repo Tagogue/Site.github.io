@@ -378,12 +378,14 @@ body{
     bottom: 0;
     right: 0;
     z-index: 3;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   }
   .img-plus-two{
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 2;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   }
 
   .img-plus-one:hover{
@@ -537,7 +539,7 @@ body{
     transform: translate(-50%);
     top: 30px;
     width: 300px;
-    height: 100%;
+    height: 70%;
     display: none;
 }
 
@@ -800,8 +802,28 @@ body{
 }
 
 /* fin 517px */
+
+.pas-le-temp{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: none;
+}
+
+.pas-le-temp h1{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 40px;
+}
+
+
 @media screen and (max-width: 517px) {
-  .container{
+  .sec1{
     display: none;
+  }
+
+  .pas-le-temp{
+    display: initial;
+    background: black;
   }
 }
